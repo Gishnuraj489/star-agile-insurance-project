@@ -17,4 +17,4 @@
     become_user : root
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8081:8081 gems070903/myproject0:2
+    command: docker run -itd -p 8081:8082 gems070903/myproject0:2
